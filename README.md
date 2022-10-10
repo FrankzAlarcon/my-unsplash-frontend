@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://my-unsplash-frontend-oz34haocp-frankzalarcon.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/tnbX8FiTKA7XTyC6LdzK">
       Solution
     </a>
     <span> | </span>

@@ -7,6 +7,7 @@ import DeletePhotoModal from '../components/DeletePhotoModal'
 import { getAllPhotos } from '../services/image.service'
 import { Photo } from '../types/photos'
 import { useEffect } from 'react'
+import Head from 'next/head'
 
 interface Props {
   photos: Photo[]
@@ -21,6 +22,11 @@ const Home: NextPage<Props> = ({ photos }) => {
 
   return (
     <div>
+      <Head>
+        <title>My Unsplash</title>
+        <meta name="description" content="My Unsplash" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Header />
       <Main />
       <AddPhotoModal isOpen={showModal} updateShowModal={updateShowModal} />
